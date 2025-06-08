@@ -1,4 +1,5 @@
 import { useState } from 'react';
+const BACKEND_URL = "https://try1-xzib.onrender.com";
 
 interface Props {
   onSignupSuccess: () => void;
@@ -14,7 +15,7 @@ export default function Signup({ onSignupSuccess }: Props) {
     e.preventDefault();
     setError('');
 
-    const res = await fetch('http://localhost:4000/signup', {
+    const res = await fetch(`${BACKEND_URL}/signup`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email, password }),

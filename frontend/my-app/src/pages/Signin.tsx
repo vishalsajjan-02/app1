@@ -1,4 +1,5 @@
 import { useState } from 'react';
+const BACKEND_URL = "https://try1-xzib.onrender.com";
 
 interface User {
   id: number;
@@ -19,7 +20,7 @@ export default function Signin({ onSigninSuccess }: Props) {
     e.preventDefault();
     setError('');
 
-    const res = await fetch('http://localhost:4000/signin', {
+    const res = await fetch(`${BACKEND_URL}/signin`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password }),
