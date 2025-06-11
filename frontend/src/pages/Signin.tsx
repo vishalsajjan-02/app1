@@ -20,7 +20,7 @@ export default function Signin({ onSigninSuccess }: Props) {
     setError('');
 
     try {
-      const res = await fetch('http://localhost:4000/signin', {
+      const res = await fetch('https://app1-6t23.onrender.com/signin', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),

@@ -15,7 +15,7 @@ export default function Signup({ onSignupSuccess }: Props) {
     setError('');
 
     try {
-      const res = await fetch('http://localhost:4000/signup', {
+      const res = await fetch('https://app1-6t23.onrender.com/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password }),
