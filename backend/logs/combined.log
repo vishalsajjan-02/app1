@@ -1,0 +1,20 @@
+{"level":"info","message":"Server started on port 4000","timestamp":"2025-06-10T18:36:59.761Z"}
+{"level":"info","message":"✅ User registered: a1@gmail.com","timestamp":"2025-06-10T18:37:56.491Z"}
+{"level":"warn","message":"⚠️ Invalid login for email: aaa@gmail.com","timestamp":"2025-06-10T18:38:16.734Z"}
+{"level":"warn","message":"⚠️ Invalid login for email: aaa@gmail.com","timestamp":"2025-06-10T18:38:28.802Z"}
+{"level":"info","message":"✅ User logged in: aaa@gmail.com","timestamp":"2025-06-10T18:38:48.789Z"}
+{"level":"info","message":"✅ User registered: a2@gmail.co","timestamp":"2025-06-10T18:51:40.089Z"}
+{"level":"warn","message":"⚠️ Invalid login for email: a2@gmail.com","timestamp":"2025-06-10T18:51:55.318Z"}
+{"level":"warn","message":"⚠️ Invalid login for email: a2@gmail.com","timestamp":"2025-06-10T18:52:09.500Z"}
+{"level":"warn","message":"⚠️ Invalid login for email: a2@gmail.com","timestamp":"2025-06-10T18:52:11.182Z"}
+{"level":"warn","message":"⚠️ Invalid login for email: a2@gmail.com","timestamp":"2025-06-10T18:52:11.820Z"}
+{"level":"warn","message":"⚠️ Invalid login for email: a2@gmail.com","timestamp":"2025-06-10T18:52:11.983Z"}
+{"level":"warn","message":"⚠️ Invalid login for email: a2@gmail.com","timestamp":"2025-06-10T18:52:12.150Z"}
+{"level":"warn","message":"⚠️ Invalid login for email: a2@gmail.com","timestamp":"2025-06-10T18:52:12.371Z"}
+{"level":"warn","message":"⚠️ Invalid login for email: a2@gmail.co","timestamp":"2025-06-10T18:53:11.694Z"}
+{"level":"info","message":"✅ User logged in: a2@gmail.co","timestamp":"2025-06-10T18:53:19.983Z"}
+{"level":"info","message":"Server started on port 4000","timestamp":"2025-06-11T05:36:42.536Z"}
+{"level":"info","message":"Server started on port 4000","timestamp":"2025-06-11 11:09:12"}
+{"level":"info","message":"✅ User registered: a3@gmail.com","timestamp":"2025-06-11 11:09:53"}
+{"level":"warn","message":"⚠️ Invalid login for email: a3@gmail.com","timestamp":"2025-06-11 11:10:25"}
+{"level":"info","message":"✅ User logged in: a3@gmail.com","timestamp":"2025-06-11 11:10:31"}
