@@ -13,9 +13,10 @@ export default function Signup({ onSignupSuccess }: Props) {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
+    const API_URL = import.meta.env.VITE_API_URL;
 
     try {
-      const res = await fetch('https://app1-6t23.onrender.com/signup', {
+      const res = await fetch(`${API_URL}/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password }),
