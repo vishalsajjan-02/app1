@@ -1,14 +1,11 @@
 // backend/index.js
 import express from 'express';
 import cors from 'cors';
-
+import dotenv from 'dotenv';
 import { query } from './db.js';
 import logger from './logger.js'; // ✅ import winston logger
 
-import dotenv from 'dotenv';
-import path from 'path';
-dotenv.config({ path: path.resolve() + '/.env' });
-
+dotenv.config();
 
 const app = express();
 app.use(cors());
